@@ -5,4 +5,5 @@ export default async function tearDownTestPipelinePost() {
     console.log('Teardowning  pipeline test......')
     await waitTime(3)
     console.log('Teardowned pipeline test!')
+    deleteFixture()
 }
